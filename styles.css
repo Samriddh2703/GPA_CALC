@@ -1,0 +1,100 @@
+body {
+  background: rgb(241, 220, 179);
+  color: rgb(75, 41, 21);
+}
+.wrapper {
+  max-width: 40%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table {
+  margin-top: 30px;
+}
+.display-none {
+  display: none;
+}
+tbody td {
+  text-transform: uppercase;
+  
+}
+
+table{
+  border: 4px solid white;
+}
+
+.buttons {
+  height:40px;
+  width: 40px;
+  font-size: 20px;
+  color: rgba(3, 0, 3);
+  background: rgb(175, 236, 238);
+  padding-bottom: 5px;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid rgb(243, 6, 6);
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+  color: rgb(28, 5, 53);
+  box-shadow: 0 4px 28px rgba(109, 88, 226);
+}
+
+.form-control{
+width: 90%;
+border-radius: 10px;
+background-color: rgb(230, 199, 222);
+margin-right: 10%;
+border: 3px solid red;
+}
+
+.butgreen{
+  
+  background: rgb(10, 187, 113);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  width:50%;
+  height:120%;
+  border-radius:50%;
+}
+
+
+.butgreen:hover{
+
+  color: rgb(253, 253, 253);
+  box-shadow: 0 4px 28px rgba(24, 238, 99, 0.753);
+}
+
+
+.butred:hover{
+  color: rgb(243, 237, 237);
+  box-shadow: 0 4px 28px rgba(233, 23, 23, 0.753);
+}
+
+.butred{
+
+  background: rgb(204, 61, 61);
+  color: rgb(255, 255, 255);
+  padding-bottom: 4px;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  width:50%;
+  height: 115%;
+  border-radius:50%;
+}
+
+.buts{
+  width: 60%;
+  margin-left:35%;
+
+}
